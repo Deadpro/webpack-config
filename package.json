@@ -1,0 +1,28 @@
+{
+  "private": true,
+  "name": "webpack-project-first",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack server",
+    "watch": "webpack --watch",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Deadpro/webpack-config.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Deadpro/webpack-config/issues"
+  },
+  "homepage": "https://github.com/Deadpro/webpack-config#readme",
+  "devDependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.1"
+  }
+}
